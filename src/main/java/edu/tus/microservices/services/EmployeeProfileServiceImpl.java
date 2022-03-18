@@ -3,9 +3,8 @@ package edu.tus.microservices.services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import edu.tus.microservices.EmployeeProfile;
-import edu.tus.microservices.controllers.EmployeeProfileService;
 import edu.tus.microservices.dao.ProfileRepository;
+import edu.tus.microservices.dto.EmployeeProfile;
 
 import java.util.ArrayList;
 import java.util.List;

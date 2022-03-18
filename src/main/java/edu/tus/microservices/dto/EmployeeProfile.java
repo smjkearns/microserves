@@ -1,6 +1,8 @@
-package edu.tus.microservices;
+package edu.tus.microservices.dto;
 import javax.persistence.*;
 
+@Entity
+@Table(name = "employee_profile")
 public class EmployeeProfile {
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -10,6 +12,7 @@ public class EmployeeProfile {
     private String name;
     @Column(name = "address")
     private String address;
+    
     public int getId() {
         return id;
     }
